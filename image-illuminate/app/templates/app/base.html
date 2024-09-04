@@ -1,0 +1,20 @@
+<!-- Base template that will be display on every page of the website -->
+{% load static %}
+
+<html>
+
+<head>
+	<title>Image Illuminated</title>
+	{% block style %}
+	{% endblock %}
+
+	{% block scripts %}
+	{% endblock %}
+</head>
+
+<body class="dark-mode-toggle">
+	{% block body %}
+	{% endblock %}
+</body>
+
+</html>
